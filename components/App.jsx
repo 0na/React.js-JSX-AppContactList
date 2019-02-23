@@ -28,25 +28,9 @@ var App = React.createClass({
   render: function() {
     return (
       <div className={"app"}>
-        <ContactForm contact={contactForm} /> <Contacts items={contacts} />{" "}
+        <ContactForm contact={contactForm} />
+        <Contacts items={contacts} />
       </div>
     );
   }
 });
-
-//var App = React.createClass({
-//  render: function () {
-//      return (
-//          React.createElement('div', {
-//                  className: 'app' //nasz komponent przyjmuje parametr o //nazwie className. Jest to odpowiednik class na elemencie HTML (np. <div ///class="app"></div>).
-//              },
-//              React.createElement(ContactForm, {
-//                 contact: contactForm
-//             }),
-//             React.createElement(Contacts, {
-//                 items: contacts
-//             }, {})
-//         )
-//     );
-// }
-//});
