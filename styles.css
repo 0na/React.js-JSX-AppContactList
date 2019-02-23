@@ -1,0 +1,77 @@
+.container {
+    background-image: linear-gradient(to left bottom, hsl(326, 72%, 79%), #c671b1, #ae67af, #935eac, #7656a8, #6163b7, #4470c3, #007ccb, #009ee0, #00beec, #00ddf1, #5ffbf1);
+    width: 80vw;
+    height: 110vh;
+    max-height: 1500vh;
+    margin: 0 auto;
+}
+
+.container>p {
+    width: 100%;
+    text-transform: uppercase;
+}
+
+p,
+a {
+    display: block;
+    color: #001dff;
+    background: #e8fffe;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+div.contactItem {
+    margin-top: 5px;
+    margin: 0 auto;
+    padding: 20px;
+    position: relative;
+
+}
+
+img.contactImage {
+    position: absolute;
+    left: -10px;
+    top: 25px;
+}
+
+
+input {
+    color: #0825c9;
+    background-color: white;
+    width: 30%;
+    margin-top: 20px;
+    margin-left: 1%;
+    text-align: center;
+}
+
+button {
+    height: 40px;
+    width: 150px;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: #106bde;
+    color: white;
+    right: 0;
+    top: 0;
+
+}
+
+
+
+ul {
+    height: 100px;
+    color: green;
+}
+
+
+
+
+footer>p {
+    color: black;
+    background: white;
+    font-size: 10px;
+}
