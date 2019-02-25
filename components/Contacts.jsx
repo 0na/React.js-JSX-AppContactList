@@ -8,13 +8,13 @@ var Contacts = React.createClass({
   //tu używamy metody map!
   render: function() {
     var contacts = this.props.items.map(function(contact) {
-      return React.createElement(Contact, {
-        item: contact,
-        key: contact.id
-      });
+      // return React.createElement(Contact, {
+      //   item: contact,
+      //   key: contact.id
+      // });
+      return <Contact item={contact} key={contact.id} />;
     });
+
     return <ul className={"contactsList"}>{contacts}></ul>;
   }
 });
-
-//<Contact item={"contact"}, key={"contact.id"}/>
